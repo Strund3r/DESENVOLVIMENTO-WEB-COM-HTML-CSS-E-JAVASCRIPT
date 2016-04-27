@@ -1,0 +1,108 @@
+/* CORPO */
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+  color: #333333;
+}
+
+.centro-distribuicao h1 {
+  font-size: 32px;
+  font-weight: bold;
+  background-image: url(../img/sobre-background.jpg);
+  padding: 10px;
+  margin: 5px;
+}
+
+.historia h2,
+.diferenciais h2 {
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 2px solid #333333;
+  margin-top: 30px;
+}
+
+h1,
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  padding: 0 45px;
+  text-indent: 15px;
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+}
+
+.centro-distribuicao p:first-letter,
+.historia p:first-letter {
+  font-weight: bold;
+}
+
+h1 + p {
+  text-indent: 0;
+}
+
+figure {
+  padding: 15px;
+  margin-top: 30px;
+  background-color: #F2EDED;
+  border: 7px solid gold;
+  border-collapse: separate;
+  border-top-style: ridge;
+  border-bottom-style: groove;
+  border-left-style: outset;
+  border-right-style: inset;
+  text-align: center;
+}
+
+.centro-distribuicao figure {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+
+.centro-distribuicao iframe {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 170px;
+  width: 580px;
+}
+
+.familia-pelho {
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.diferenciais ul {
+  list-style-type: square;
+  list-style-position: inside;
+  font-family: 'Courgette', cursive;
+}
+
+.diferenciais iframe {
+  float: right;
+  margin: -15px 0 10px 10px;
+}
+
+footer {
+  clear: both;
+  width: auto;
+  border-top: 2px solid #333333;
+}
+
+#rodape {
+  color: #777;
+  margin: 10px 0;
+}
+
+#rodape img {
+  margin-right: 30px;
+  vertical-align: middle;
+  width: 94px;
+}
