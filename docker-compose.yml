@@ -1,0 +1,20 @@
+db:
+  image: mysql/mysql-server:latest
+  environment:
+    - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+web:
+  build: ./mirrorfashion
+  command: php -S 0.0.0.0:3000
+  ports:
+      - "3000:3000"
+  links:
+    - db
+myadmin:
+  build: ./phpMyAdmin
+  command: php -S 0.0.0.0:5000
+  ports:
+      - "5000:5000"
+  volumes:
+    - ./phpMyAdmin/php.ini:/usr/local/etc/php5/cli/php.ini
+  links:
+    - db
