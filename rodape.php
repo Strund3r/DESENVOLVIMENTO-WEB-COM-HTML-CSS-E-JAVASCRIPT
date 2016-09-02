@@ -21,6 +21,19 @@
           <script src="tomticket.php" type="text/javascript"></script>
         </div>
 
+        <div id="local-do-botao">
+        <!-- Início do Script do Chat -->
+          <script type="text/javascript">
+          // <![CDATA[
+          var url= 'https://seucondominio.tomticket.com/chat/balaofixo/EP12336/789504P31082016121336'
+          + '?ts=' + new Date().getTime() + '&ref=' + document.URL; document.writeln(' <scr'
+          + 'ipt src="'+url+'" type="text\/javascript">' + ' <\/scr'
+          + 'ipt>');
+          //]]>
+          </script>
+        <!-- Fim do Script do Chat -->
+        </div id="local-do-botao">
+
       </div>
     </footer>
 

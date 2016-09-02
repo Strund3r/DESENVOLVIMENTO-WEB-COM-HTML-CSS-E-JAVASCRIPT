@@ -2,6 +2,7 @@
   $cabecalho_title = "Mirror Fashion";
   include("cabecalho.php");
   include_once("analyticstracking.php");
+  include_once("tomticket.php");
   ?>
 
   <div class="container destaque">
